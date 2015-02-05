@@ -9,27 +9,39 @@
     <link rel="stylesheet" href="./css/bootstrap-responsive.css" type="text/css">
     <link rel="stylesheet" href="./css/strip.css" type="text/css">
     <link rel="stylesheet" href="./css/strip-responsive.css" type="text/css">
+    <link rel="stylesheet" href="./css/gooey menu.css" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
    	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
     
 </head><body>
 
 <section class="container">
-    <nav class="navbar">
-        <div class="navbar-inner">
-            <div class="container">
-                <a href="/" class="brand">wealthbot.io</a>
-                <ul class="nav">
-                    <li class="active"><a href="#">Home </a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Docs</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                <div class="row">
+                    <div class="span4">
+                    <a href="/">
+                      <img src="./img/webo.png" alt="Webo" />
+                    </a>
+                </div>
+<div class="span4 offset4">            
+<nav class="menu">
+  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+  <label class="menu-open-button" for="menu-open">
+    <span class="hamburger hamburger-1"></span>
+    <span class="hamburger hamburger-2"></span>
+    <span class="hamburger hamburger-3"></span>
+  </label>
+  
+  <a href="#" class="menu-item"> <i class="fa fa-bar-chart"></i> </a>
+  <a href="#" class="menu-item"> <i class="fa fa-heart"></i> </a>
+  <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+  
+</nav>
+    </div>
+</div>
+        
 </section>
-
-<section class="container">
+<section class="container" style="clear:both">
     <div class="row">
         <header class="highlight span8 offset2">
             <h2>Wealth Management, Open Sourced</strong></h2> 
@@ -175,6 +187,27 @@
     </nav>                 
     <p>Built in the USA by <strong>Lancekey Consulting</strong></p>           
 </footer>
+<!-- filters -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="shadowed-goo">
+          
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+          <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+          <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+          <feComposite in2="shadow" in="goo" result="goo" />
+          <feComposite in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+      <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feComposite in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+    </defs>
+</svg>
+
 <script src="./js/jquery-1.8.0.min.js"></script>
 <script src="./js/bootstrap.js"></script>
 
