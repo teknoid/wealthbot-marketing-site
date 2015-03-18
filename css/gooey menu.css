@@ -6,9 +6,6 @@
           filter: url("#shadowed-goo");
 }
 
-a:link, a:visited .menu-item{
-  color: rgb(255, 255, 255);
-}
 
 .menu-item, .menu-open-button {
   background: #D84A38;
@@ -18,7 +15,7 @@ a:link, a:visited .menu-item{
   margin-left: -40px;
   position: absolute;
   top: 20px;
-  color: white;
+  color: white !important; 
   text-align: center;
   line-height: 80px;
   -webkit-transform: translate3d(0, 0, 0);
@@ -88,7 +85,7 @@ a:link, a:visited .menu-item{
 
 .menu-item:hover {
   background: white;
-  color: #D84A38;
+  color: #D84A38 !important;
 }
 .menu-item:nth-child(3) {
   -webkit-transition-duration: 180ms;
