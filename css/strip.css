@@ -5,6 +5,34 @@ body {
 	background-image: url("../img/bg.png");	
 }
 
+/* #subscription-section */
+.newsletter-form-content { text-align: center !important; }
+.newsletter-form-content h2 { color: #ffffff; padding-bottom: 0; margin-top:15px; margin-bottom: 0; font-size: 2.2em; font-weight: bold; }
+.newsletter-form-content h4 { color: #ffffff; padding-bottom: 0; font-size: 1.5em; }
+.form-subscribe { width: 60%; margin: 0 auto; padding-top: 20px; }
+.form-group { margin-bottom: 15px;}
+
+#subscription-section {
+  background: #108abe;
+}
+
+.btn-custom-1 {
+  background-color: rgba(255,255,255,0);
+  border: 1px solid rgba(255,255,255,0.5);
+  color: #ffffff;
+}
+
+.form-control {
+  height: 37px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px !important;
+  border: 1px solid rgba(207,207,207,0.5);
+  box-shadow: none !important;
+  }
+
+/* #subscription-section */
+
 p {
 	font: 14px/23px 'Open Sans', sans-serif;	
     text-shadow: #ffffff 0 1px 0;	
