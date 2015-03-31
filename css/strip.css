@@ -30,6 +30,13 @@ body {
   box-shadow: none !important;
   }
 
+ #mc_embed_signup  { 
+    clear:left;
+    text-align: left;
+    color: white;
+
+  }
+
 /* #subscription-section */
 
 p {
