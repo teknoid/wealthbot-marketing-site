@@ -14,6 +14,7 @@
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
     <meta name="google-site-verification" content="vVFsHdkFq8276QW-JAzsAMt1aPDGomCXOmsVJXs2fYA" />
 
+   
     <!-- analytics -->
 
     <script>
@@ -52,7 +53,7 @@
         <header class="highlight span8 offset2">
     <div class="row">
             <h2>Wealth Management, Set Free</strong></h2> 
-            <p class="lead"><strong>Wealthbot.io + a LAMP stack = </strong><br>All it takes to launch your very own wealth management platform.</p>            
+            <p class="lead"><strong>Wealthbot.io + a LAMP stack = </strong><br>All it takes to launch your very own wealth management platform.</p>         
             <img id="feature-screenshot" src="img/responsive_wb.png" alt="Open Source, Responsive Wealth Management Platform">
     </div>  <!-- row div --> 
              </header>
@@ -70,7 +71,7 @@
     <div id="benefits1" class="row">
            <h3>Every module, automated decision and the code behind it, is transparent</h3>
         <div class="span6">
-            <img src="img/advisor-dashboard.png" alt="Open Source">
+           <a class="fancybox" href="img/advisor-dashboard.png"><img src="img/advisor-dashboard.png" alt="Open Source"></a>
         </div>
         <div class="span4">
            <p>Inspect it, change it, and learn from it. You can explain to senior management, investors, clients or regulators the exact way in which a particular key metric has been computed.</p>
@@ -84,7 +85,7 @@
  <p>Save time and trees by on-boarding your clients without paper with our DocuSign integration. Don't rely on third party portfolios that deliver sub-optimal performance. Easily setup the portfolio allocations you know and trust. Then let Wealthbot take care of the rest with automated portfolio rebalancing and tax-loss harvesting.</p>
         </div>
         <div class="span6">
-            <img src="img/client-intake.png" alt="Client Intake">
+            <a class="fancybox" href="img/client-intake.png"><img src="img/client-intake.png" alt="Client Intake"></a>
         </div>
     </div> <!-- row -->
 </div> <!-- hero unit -->
@@ -92,7 +93,7 @@
 <div id="benefits3" class="row">
           <h3>Client Self Service Portal</h3>
         <div class="span6">
-             <img src="img/client-dashboard.png" alt="Client Dashboard">
+             <a class="fancybox" href="img/client-dashboard.png"><img src="img/client-dashboard.png" alt="Client Dashboard"></a>
         </div>
         <div class="span4">
 <p>Your clients will love our beautiful reporting dashboard – on any device. You'll love our customizable and automated risk assessment - build on decades of Nobel-prize winning research to recommend the right risk-tolerance adjusted portfolios.</p>
@@ -116,7 +117,7 @@
                     </p>         
                     <article class="carousel-caption">                                         
                         <h3>Manage a single RIA firm or multiple RIAs with one platform.</h3>
-                        <p class="center-align"> Easy to <i class="icon-ok"></i>launch, built to <i class="icon-signal"></i>scale.</p>  
+                        <p class="center-align"><i class="icon-ok"></i> Easy to launch. <i class="icon-signal"></i> Built to scale.</p>  
                     </article>                                        
                 </div>
                 <div class="item">      
@@ -125,7 +126,7 @@
                     </p>           
                     <article class="carousel-caption">                  
                         <h3>Connect to financial custodians. Automate document flow with Docusign.</h3>       
-                        <p class="center-align"><i class="icon-random"></i> Our community of developers is building new intergrations every day</p>                                                   
+                        <p class="center-align"><i class="icon-random"></i> Our community of developers is building new integrations every day</p>                                                   
                     </article>
                 </div>
                 <div class="item">              	  
@@ -134,7 +135,7 @@
                     </p>      
                     <article class="carousel-caption">                        
                         <h3 class="quotes">All open-sourced.</h3>       
-                        <p class="center-align">Community focused, transparent from the ground up.</p>                            
+                        <p class="center-align"><i class="fa fa-users"></i> Community focused, transparent from the ground up.</p>                            
                     </article>
                 </div>
                
@@ -262,6 +263,19 @@
 
 <script src="./js/jquery-1.8.0.min.js"></script>
 <script src="./js/bootstrap.js"></script>
+
+ <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="./js/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<!-- Initialize fancyBox  -->
+
+<script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+</script>
+
 
 </body>
 
