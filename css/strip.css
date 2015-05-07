@@ -5,6 +5,15 @@ body {
 	background-image: url("../img/bg.png");	
 }
 
+/* modal styling */
+
+.modal { 
+    border-top: 3px solid #D84A38;
+    background:#efefef; 
+  background-image: url("../img/bg.png"); 
+}
+
+
 /* #subscription-section */
 .newsletter-form-content { text-align: center !important; }
 .newsletter-form-content h2 { color: #ffffff; padding-bottom: 0; margin-top:15px; margin-bottom: 0; font-size: 2.2em; font-weight: bold; }
