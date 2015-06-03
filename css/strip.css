@@ -5,6 +5,11 @@ body {
 	background-image: url("../img/bg.png");	
 }
 
+.social-buttons{
+margin-top: 40px;
+text-align: center;
+}
+
 /* modal styling */
 
 .modal { 
